@@ -1,5 +1,6 @@
 jupyter labextension install @jupyterlab/git
 jupyter serverextension enable --py jupyterlab_git
 #jupyter labextension install jupyterlab_vim
-git config --glo
+git config --global user.name "SaraMithani"
+git config --global user.email smitha3@uic.edu
 git config --global credential.helper 'cache --timeout=3600'
